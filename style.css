@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&family=Tilt+Warp&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #161623;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0,0.6)),
+      url(labyrinth-clipart-20.jpg);
+    background-size: cover;
+  }  
+/* NAVBAR CODE */
+.card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+.container .card {
+  position: fixed;
+  width: 95.5%;
+  height: auto;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+.cname img{
+    height: auto;
+    width: 70px;
+}
+.navg {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.navg a {
+  color: #888888;
+  font-family: "Tilt Warp", cursive;
+  text-decoration: none;
+  padding-left: 30px;
+}
+.navg a:hover {
+  color: rgb(48, 93, 142);
+}
+/* MAIN BODY */
+.container .content {
+  position: fixed;
+  width: 95.5%;
+  height: 550px;
+  margin-top: 100px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.image {
+  position: relative;
+}
+.image img {
+    border-radius: 8px;
+    width: 100%;
+    filter: brightness(100%);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+.image p {
+  color: #fff;
+  position: absolute;
+  font-size: 100px;
+  bottom: 0;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  opacity: 50%;
+}
+.line p {
+  color: #888888;
+  text-align: center;
+  opacity: 50%;
+}
+.slogan p {
+  color: #888888;
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  opacity: 50%;
+}
+.products {
+  border-radius: 8px;
+  width: 100%;
+  height: 475px;
+  filter: brightness(100%);
+  color: #161623;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.products .newsn p {
+  color: #fff;
+  position: absolute;
+  font-size: 50px;
+  padding-left: 25px;
+  padding-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  opacity: 50%;
+}
+.shoecard {
+  position: relative;
+  border-radius: 8px;
+  width: 20%;
+  height: 355px;
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 30px;
+  background-color: rgba(255, 255, 255, 0.736);
+  display: inline-block;
+  filter: brightness(100%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.shoecard .shoeimage img {
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.shoecard .shoeimage .heart img {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 210px;
+  bottom: 310px;
+}
+.shoecard .shoename p {
+  font-size: 17px;
+  color: black;
+  opacity: 100%;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.shoecard .shoename h3 {
+  color: rgb(0, 98, 3);
+  opacity: 100%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+.shoecard .shoename .buy {
+  border-radius: 8px;
+  border-color: rgb(0, 95, 179);
+  height: 35px;
+  width: auto;
+  background-color: rgb(52, 155, 246);
+  margin-left: 13px;
+  margin-right: 135px;
+  margin-top: 5px;
+}
+.shoecard .shoename .buy p {
+  margin-left: 10px;
+  padding-top: 8px;
+  /* text-align: center; */
+}
+.para {
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+  padding: 20px 20px;
+}
+.para::-webkit-scrollbar {
+  display: none;
+}
